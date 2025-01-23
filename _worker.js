@@ -171,7 +171,7 @@ export default {
 				return new Response(base64Data, {
 					headers: {
 						"content-type": "text/plain; charset=utf-8",
-						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						//"Profile-Update-Interval": `${SUBUpdateTime}`,
 						//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 					}
 				});
@@ -192,7 +192,7 @@ export default {
 					return new Response(base64Data, {
 						headers: {
 							"content-type": "text/plain; charset=utf-8",
-							"Profile-Update-Interval": `${SUBUpdateTime}`,
+							//"Profile-Update-Interval": `${SUBUpdateTime}`,
 							//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 						}
 					});
@@ -204,7 +204,7 @@ export default {
 					headers: {
 						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}`,
 						"content-type": "text/plain; charset=utf-8",
-						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						//"Profile-Update-Interval": `${SUBUpdateTime}`,
 						//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 
 					},
@@ -213,7 +213,7 @@ export default {
 				return new Response(base64Data, {
 					headers: {
 						"content-type": "text/plain; charset=utf-8",
-						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						//"Profile-Update-Interval": `${SUBUpdateTime}`,
 						//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 					}
 				});
